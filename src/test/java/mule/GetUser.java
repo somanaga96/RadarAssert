@@ -26,6 +26,7 @@ public class GetUser {
             throw new RuntimeException(e);
         }
         GetCSVDataMaker.setUserResponse(userResponse);
+
         return radarIn;
     }
 }

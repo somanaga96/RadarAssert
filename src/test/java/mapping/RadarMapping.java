@@ -1,23 +1,22 @@
 package mapping;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import csv.CSVMapper;
 import model.QuestionSetPropertyFields;
-import mule.GetUser;
 
+import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 
 public class RadarMapping {
-    public static Map<String, String> csvToHashMap() throws JsonProcessingException {
+    public static Map<String, String> csvToHashMap() throws IOException {
         QuestionSetPropertyFields fields = CSVMapper.getQuestionSetPropertyFields();
-        Map<String, String> csvMap;
+        Map<String, String> radarIn = new HashMap<>();
         ObjectMapper objectMapper = new ObjectMapper();
-        csvMap = objectMapper.convertValue(fields.toBuilder().build(), new TypeReference<Map<String, String>>() {
+        radarIn = objectMapper.convertValue(fields.toBuilder().build(), new TypeReference<Map<String, String>>() {
         });
-//        csvMap = PostUser.addUser(csvMap);
-        csvMap = GetUser.getUserById(csvMap);
-        return csvMap;
+        radarIn.putAll(SystemSetMapping.systemMapping(radarIn));
+        return radarIn;
     }
 }

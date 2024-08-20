@@ -8,6 +8,7 @@ public class DateParser {
     public static String dateFormat = "DD/mm/yyyy";
 
     public static int getAge(String dob) {
+        System.out.println("dob :"+dob);
         LocalDate todayDate = LocalDate.now();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(dateFormat);
         LocalDate parse = LocalDate.parse(dob, dateTimeFormatter);

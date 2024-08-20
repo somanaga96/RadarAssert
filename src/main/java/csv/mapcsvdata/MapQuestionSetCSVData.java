@@ -1,12 +1,13 @@
-package csv;
+package csv.mapcsvdata;
 
+import csv.ReadCSVData;
 import model.QuestionSetPropertyFields;
 import org.apache.commons.csv.CSVRecord;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MapCSVData {
+public class MapQuestionSetCSVData {
     public static List<QuestionSetPropertyFields> read(String csvPath) {
         List<QuestionSetPropertyFields> fields = new ArrayList<>();
         for (CSVRecord csvRecord : ReadCSVData.recordIterable(csvPath)) {

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Quote>
+    <radarModelId value="Hlive1.0" />
+    <dob value="10/10/1990" />
+    <age value="34" />
+    <Item>
+      <name value="watch" />
+      <coverOutside value="Yes" />
+      <value value="2000" />
+    </Item>
+    <Item>
+      <name value="bike" />
+      <coverOutside value="No" />
+      <value value="1000" />
+    </Item>
+    <Item>
+      <name value="train" />
+      <coverOutside value="Yes" />
+      <value value="6000" />
+    </Item>
+    <data>
+      <id value="2" />
+      <email value="janet.weaver@reqres.in" />
+      <first_name value="Janet" />
+      <last_name value="Weaver" />
+      <avatar value="https://reqres.in/img/faces/2-image.jpg" />
+    </data>
+  </Quote>
+</root>
