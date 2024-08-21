@@ -1,9 +1,20 @@
 {
   "root": {
     "Quote": {
-      "radarModelId": "Hlive1.0",
       "dob": "10/10/1990",
       "age": 40,
+      "property": {
+        "radarModelId": "Hlive1.0",
+        "firstName": "Som",
+        "Cycle": [
+          {
+            "cycleId:": "1234",
+            "name": "watch",
+            "coverOutside": "Yes",
+            "value": "2000"
+          }
+        ]
+      },
       "Item": [
         {
           "itemId:": "1234",

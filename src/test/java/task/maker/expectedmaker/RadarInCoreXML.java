@@ -1,4 +1,4 @@
-package maker.expectedmaker;
+package task.maker.expectedmaker;
 
 import com.google.gson.Gson;
 import csv.CSVMapper;

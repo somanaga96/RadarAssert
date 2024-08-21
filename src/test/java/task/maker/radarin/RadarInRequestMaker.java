@@ -1,10 +1,10 @@
-package maker.radarin;
+package task.maker.radarin;
 
 import com.example.generated.RadarIn.RadarInput;
 import com.example.generated.RadarIn.Root;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import maker.expectedmaker.RadarInCoreContentXML;
+import task.maker.expectedmaker.RadarInCoreContentXML;
 
 public class RadarInRequestMaker {
     public static void makeRadarInput() throws JsonProcessingException {
@@ -19,7 +19,7 @@ public class RadarInRequestMaker {
         }
         RadarInCoreContentXML.frameContenXML(json);
 //        RadarInCoreXML.frameXML(json);
-        System.out.println("Json2 :" + json);
+        System.out.println("Json :" + json);
     }
 
     public static Root makeRoot() {

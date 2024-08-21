@@ -15,7 +15,7 @@ public class SystemSetMapping {
         radarInput = objectMapper.readValue(file, new TypeReference<Map<String, String>>() {
         });
         System.out.println("system mapping:"+radarInput);
-        radarInput = GetUser.getUserById(radarInput);
+        radarInput.putAll(GetUser.getUserById(radarInput));
         return radarInput;
     }
 }

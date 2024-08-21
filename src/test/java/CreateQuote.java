@@ -1,7 +1,7 @@
 import csv.CSVMapper;
 import csv.mapcsvdata.MapQuestionSetCSVData;
 import model.QuestionSetPropertyFields;
-import maker.RadarAssert;
+import task.maker.RadarAssert;
 import org.junit.Test;
 
 import java.io.IOException;

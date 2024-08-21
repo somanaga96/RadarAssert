@@ -5,7 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import maker.GetCSVDataMaker;
+import task.maker.GetCSVDataMaker;
 
 import java.util.Map;
 

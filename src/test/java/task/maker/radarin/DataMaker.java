@@ -1,7 +1,7 @@
-package maker.radarin;
+package task.maker.radarin;
 
 import com.example.generated.RadarIn.Data;
-import maker.GetCSVDataMaker;
+import task.maker.GetCSVDataMaker;
 
 public class DataMaker extends GetCSVDataMaker {
     public static Data setData() {

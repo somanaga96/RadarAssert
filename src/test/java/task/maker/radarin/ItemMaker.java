@@ -1,4 +1,4 @@
-package maker.radarin;
+package task.maker.radarin;
 
 import com.example.generated.RadarIn.Item;
 import csv.mapcsvdata.MapItemCSVData;

@@ -1,0 +1,3 @@
+ScenarioId,Run,Name,Value,CoverOutside
+2,Yes,motor,2000,Yes
+2,Yes,bike,1000,No

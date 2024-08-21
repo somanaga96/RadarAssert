@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <Quote>
-    <radarModelId value="Hlive1.0" />
     <dob value="10/10/1990" />
     <age value="34" />
     <Item>
@@ -10,12 +9,7 @@
       <value value="2000" />
     </Item>
     <Item>
-      <name value="bike" />
-      <coverOutside value="No" />
-      <value value="1000" />
-    </Item>
-    <Item>
-      <name value="train" />
+      <name value="jewel" />
       <coverOutside value="Yes" />
       <value value="6000" />
     </Item>
@@ -26,5 +20,21 @@
       <last_name value="Weaver" />
       <avatar value="https://reqres.in/img/faces/2-image.jpg" />
     </data>
+    <support>
+      <url value="https://reqres.in/#support-heading" />
+      <text value="To keep ReqRes free, contributions towards server costs are appreciated!" />
+    </support>
+    <property>
+      <radarModelId value="Hlive1.0" />
+      <firstName value="Janet" />
+      <Cycle>
+        <coverOutside value="Yes" />
+        <value value="2000" />
+      </Cycle>
+      <Cycle>
+        <coverOutside value="No" />
+        <value value="1000" />
+      </Cycle>
+    </property>
   </Quote>
 </root>

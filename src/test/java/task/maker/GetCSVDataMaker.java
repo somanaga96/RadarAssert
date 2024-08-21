@@ -1,17 +1,16 @@
-package maker;
+package task.maker;
 
 
 import com.example.generated.singleUser.UserResponse;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.Getter;
 import lombok.Setter;
-import maker.radarin.RadarInRequestMaker;
+import task.maker.radarin.RadarInRequestMaker;
 
 import java.util.Map;
 
 
 public class GetCSVDataMaker {
-
     static Map<String, String> radarInput;
     @Getter
     @Setter

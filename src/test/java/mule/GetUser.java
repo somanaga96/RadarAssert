@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import csv.CSVMapper;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import maker.GetCSVDataMaker;
+import task.maker.GetCSVDataMaker;
 import model.QuestionSetPropertyFields;
 
 import java.util.Map;
